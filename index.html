@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Tab</title>
+
+    <style>
+      html {
+        align-items: center;
+        color: #313131;
+        display: flex;
+        font: 22px "Courier New", Courier, monospace;
+        height: 100%;
+        justify-content: center;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        margin: 1em;
+        padding: 1em;
+      }
+
+      h1 {
+        font-size: 2em;
+        grid-column: 1 / -1;
+        margin: 0;
+        text-align: center;
+      }
+      
+      form {
+        font-size: 2em;
+        grid-column: 1 / -1;
+        margin: 0;
+        text-align: center;
+      }
+
+      form input[type="search"] {
+        background-color: rgba(255, 255, 255, 0.95);
+        border: none;
+        box-sizing: border-box;
+        font-weight: bold;
+        font: inherit;
+        width: 100%;
+      }
+
+      form label {
+        color: #1d81b2;
+        left: -1em;
+        position: absolute;
+      }
+
+      form:focus-within input::placeholder {
+        opacity: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:focus,
+      a:hover {
+        color: #1d81b2;
+      }
+
+      nav {
+        display: grid;
+        grid-gap: 1em 1em;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 1em;
+        min-width: 24em;
+        padding: 1em 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+      }
+
+      li:first-child {
+        font-weight: bold;
+        line-height: 2em;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Welcome To Your Startpage Robert</h1>
+      
+      <ul>
+        <li>Media</li>
+        <li><a href="https://youtube.com">YouTube</a></li>
+        <li><a href="https://crunchyroll.com">Crunchyroll</a></li>
+        <li><a href="https://vlive.tv">V LIVE</a></li>
+        <li><a href="https://viki.com">Viki</a></li>
+        <li><a href="https://netflix.com">Netflix</a></li>
+        <li><a href="https://hulu.com">Hulu</a></li>
+      </ul>
+      
+      <ul>
+        <li>Social</li>
+        <li><a href="https://reddit.com">Reddit</a></li>
+        <li><a href="https://discord.com/app">Discord</a></li>
+        <li><a href="https://twitter.com">Twitter</a></li>
+        <li><a href="https://facebook.com">Facebook</a></li>
+      </ul>
+
+
+      
+      <ul>
+        <li>Ricing</li>
+        <li><a href="https://reddit.com/r/unixporn">r/unixporn</a></li>
+        <li><a href="https://reddit.com/r/startpages">r/startpages</a></li>
+        <li><a href="https://reddit.com/r/desktops">r/desktops</a></li>
+        <li><a href="https://reddit.com/r/rainmeter">r/rainmeter</a></li>
+      </ul>
+
+      <ul>
+        <li>Reddit</li>
+        <li><a href="https://reddit.com/r/dahyun">r/dahyun</a></li>
+        <li><a href="https://reddit.com/r/animefigures">r/animefigures</a></li>
+        <li><a href="https://reddit.com/r/babymetal">r/babymetal</a></li>
+        <li><a href="https://reddit.com/r/mahouka">r/mahouka</a></li>
+        <li><a href="https://reddit.com/r/tenseislime">r/tenseislime</a></li>
+      </ul>    
+      
+      <ul>
+        <li>Web Development</li>
+        <li><a href="https://stpg.tk">/wg/-/stpg</a></li>
+        <li><a href="https://github.com">Github</a></li>
+        <li><a href="https://codepen.io/">codepen</a></li>
+      </ul>
+      <form action="https://duckduckgo.com/" method="GET">
+        <label for="q">></label>
+        <input autofocus
+               id="q" 
+               name="q" 
+               type="search" 
+               placeholder="search with duckduckgo...">
+      </form>
+    </nav>
+
+
+  </body>
+</html>
