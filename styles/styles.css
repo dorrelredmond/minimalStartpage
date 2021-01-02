@@ -20,6 +20,7 @@ font-size: 2em;
 grid-column: 1 / -1;
 margin: 0;
 text-align: center;
+text-shadow: none;
 }
 
 form {
@@ -78,4 +79,3 @@ li:first-child {
 font-weight: bold;
 line-height: 2em;
 }
-
