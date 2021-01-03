@@ -6,8 +6,6 @@
     color: #b7410e;
 }
 
-
-
 html {
     background-color: #313131;
     color: whitesmoke;
@@ -22,15 +20,6 @@ html {
 body {
     margin: 1em;
     padding: 1em;
-}
-
-.clock {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    color: teal;
-    font-size: 60px;
-    letter-spacing: 1px;
 }
 
 h1 {
