@@ -75,6 +75,7 @@ white-space: nowrap;
 }
 
 li:first-child {
+color: teal;
 font-weight: bold;
 line-height: 2em;
 }
