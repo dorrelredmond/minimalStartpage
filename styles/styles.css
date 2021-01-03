@@ -23,14 +23,14 @@ body {
 
 h1 {
     font-size: 2em;
-    grid-column: 1 / -1;
+    /*grid-column: 1 / -1;*/
     margin: 0;
     text-align: center;
 }
 
 form {
     font-size: 2em;
-    grid-column: 1 / -1;
+    /*grid-column: 1 / -1;*/
     margin: 0;
     text-align: center;
 }
