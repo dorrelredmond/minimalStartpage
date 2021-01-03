@@ -7,13 +7,13 @@
 }
 
 html {
+    align-items: center;
     background-color: #313131;
     color: whitesmoke;
     font: 22px "Courier New", Courier, monospace;
     height: 100%;
-    margin: 0;
-    align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 body {
@@ -23,14 +23,14 @@ body {
 
 h1 {
     font-size: 2em;
-    /*grid-column: 1 / -1;*/
+    grid-column: 1 / -1;
     margin: 0;
     text-align: center;
 }
 
 form {
     font-size: 2em;
-    /*grid-column: 1 / -1;*/
+    grid-column: 1 / -1;
     margin: 0;
     text-align: center;
 }
