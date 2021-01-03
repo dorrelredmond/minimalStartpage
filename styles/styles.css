@@ -100,5 +100,6 @@ ul {
 li:first-child {
     color: teal;
     font-weight: bold;
+    font-size: 1.5em;
     line-height: 2em;
 }
