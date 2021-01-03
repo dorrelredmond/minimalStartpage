@@ -9,7 +9,7 @@
 html {
     background-color: #313131;
     color: whitesmoke;
-    display: flex;
+    display: block;
     font: 22px "Courier New", Courier, monospace;
     height: 100%;
     margin: 0;
