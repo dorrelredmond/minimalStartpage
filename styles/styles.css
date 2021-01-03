@@ -6,21 +6,31 @@
     color: #b7410e;
 }
 
+
+
 html {
-    align-items: center;
     background-color: #313131;
     color: whitesmoke;
     display: flex;
     font: 22px "Courier New", Courier, monospace;
     height: 100%;
-    justify-content: center;
     margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
-    display: flex;
     margin: 1em;
     padding: 1em;
+}
+
+.clock {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: teal;
+    font-size: 60px;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -87,4 +97,11 @@ li:first-child {
     color: teal;
     font-weight: bold;
     line-height: 2em;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }

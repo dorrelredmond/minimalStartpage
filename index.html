@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New Tab</title>
-    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <img src="images/rimuru.jpg" width="300" height="400">
+    <h1>Welcome To Your <span class="teal_text">Startpage</span> <span class="rust_text">Robert</span> </h1>
+    
     <nav>
-      <h1>Welcome To Your <span class="teal_text">Startpage</span> <span class="rust_text">Robert</span> </h1>
-      
       <ul>
         <li>Media</li>
         <li><a href="https://youtube.com">YouTube</a></li>
@@ -46,20 +48,25 @@
       </ul>    
       
       <ul>
-        <li>Web Development</li>
+        <li>Development</li>
         <li><a href="https://stpg.tk">/wg/-/stpg</a></li>
         <li><a href="https://github.com">Github</a></li>
         <li><a href="https://codepen.io/">codepen</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">MDN Web Docs</a></li>
+        <li><a href="https://www.python.org/about/gettingstarted/">Python For Beginners</a></li>
+        <li><a href="https://docs.python.org/3/">Python Docs</a></li>
       </ul>
-      <form action="https://duckduckgo.com/" method="GET">
-        <label for="q">></label>
-        <input autofocus
-               id="q" 
-               name="q" 
-               type="search" 
-               placeholder="search with duckduckgo...">
-      </form>
-    </nav>
+    </nav>    
+
+    <form action="https://duckduckgo.com/" method="GET">
+      <label for="q">></label>
+      <input autofocus
+              id="q" 
+              name="q" 
+              type="search" 
+              placeholder="search with duckduckgo...">
+    </form>
+    <script src="scripts/MyClockDisplay.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
