@@ -31,6 +31,7 @@ text-align: center;
 
 form input[type="search"] {
 background-color: #313131;
+color: whitesmoke;
 border: none;
 box-sizing: border-box;
 font-weight: bold;
@@ -78,4 +79,8 @@ li:first-child {
 color: teal;
 font-weight: bold;
 line-height: 2em;
+}
+
+.cobalt_text {
+color: #0047ab;
 }
