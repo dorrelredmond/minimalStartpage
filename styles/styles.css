@@ -21,6 +21,13 @@ body {
     padding: 1em;
 }
 
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
 h1 {
     font-size: 2em;
     grid-column: 1 / -1;
@@ -85,11 +92,4 @@ li:first-child {
     color: teal;
     font-weight: bold;
     line-height: 2em;
-}
-
-img {
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-    width: 50%;
 }
