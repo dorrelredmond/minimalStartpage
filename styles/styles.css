@@ -6,15 +6,6 @@
     color: #b7410e;
 }
 
-.clock {
-    position: absolute;
-    top: 0%;
-    right: 1%;
-    color: teal;
-    font-size: 60px;
-    letter-spacing: 1px;
-}
-
 html {
     align-items: center;
     background-color: #313131;
