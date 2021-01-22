@@ -19,7 +19,7 @@ html {
     align-items: center;
     background-color: #313131;
     color: whitesmoke;
-    font: 22px "Courier New", Courier, monospace;
+    font: 22px "Monaco", "Courier New", Courier, monospace;
     height: 100%;
     justify-content: center;
     margin: 0;
@@ -28,13 +28,7 @@ html {
 body {
     margin: 1em;
     padding: 1em;
-}
-
-img {
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-    width: 50%;
+    text-align: center;
 }
 
 h1 {
@@ -42,29 +36,25 @@ h1 {
     grid-column: 1 / -1;
     margin: 0;
     text-align: center;
+    font-family: "Luminari", "Bradley Hand", Courier, monospace;
 }
 
 form {
-    font-size: 2em;
+    font-size: 1.5em;
     grid-column: 1 / -1;
     margin: 0;
     text-align: center;
 }
 
 form input[type="search"] {
-    background-color: #313131;
+    background-color: #3a3939;
     color: teal;
     border: none;
     box-sizing: border-box;
     font-weight: bold;
     font: inherit;
-    width: 100%;
-}
-
-form label {
-    color: #1d81b2;
-    left: -1em;
-    position: absolute;
+    width: 50%;
+    text-align: center;
 }
 
 form:focus-within input::placeholder {
@@ -83,11 +73,12 @@ a:hover {
 
 nav {
     display: grid;
-    grid-gap: 1em 1em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 1em;
+    grid-gap: 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 10px;
     min-width: 24em;
     padding: 1em 0;
+    font: 20px "Monaco", monospace, "Courier New", Courier, monospace;
 }
 
 ul {
@@ -102,4 +93,19 @@ li:first-child {
     font-weight: bold;
     font-size: 1.5em;
     line-height: 2em;
+    font-family: "Luminari", "Bradley Hand", "Courier New", Courier, monospace;
+}
+
+.top img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    filter: brightness(85%);
+}
+
+img{
+    width: 17px;
+    transform: translateY(2px);
+    padding-right: 4px;
 }

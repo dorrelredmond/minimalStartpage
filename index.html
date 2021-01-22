@@ -5,68 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New Tab</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-    <img src="images/rimuru.jpg" width="400" height="500">
+    <div class="top">
+      <img src="images/rimuru.jpg">
+    </div>
+
     <h1>Welcome To Your <span class="teal_text">Startpage</span> <span class="rust_text">Robert</span> </h1>
+    
+    <form action="https://duckduckgo.com/" method="GET">
+      <input autofocus id="q" name="q" type="search" placeholder="Search">
+    </form>
     
     <nav>
       <ul>
         <li>Media</li>
-        <li><a href="https://youtube.com">YouTube</a></li>
-        <li><a href="https://crunchyroll.com">Crunchyroll</a></li>
-        <li><a href="https://twitch.tv">Twitch</a></li>
-        <li><a href="https://vlive.tv">V LIVE</a></li>
-        <li><a href="https://hulu.com">Hulu</a></li>
+        <li><a href="https://youtube.com"><img src="https://youtube.com/favicon.ico">YouTube</a></li>
+        <li><a href="https://crunchyroll.com"><img src="https://crunchyroll.com/favicons/favicon-32x32.png">Crunchyroll</a></li>
+        <li><a href="https://twitch.tv"><img src="https://twitch.tv/favicon.ico">Twitch</a></li>
+        <li><a href="https://vlive.tv"><img src="https://vlive.tv/favicon.ico">V LIVE</a></li>
+        <li><a href="https://hulu.com"><img src="https://hulu.com/favicon.ico">Hulu</a></li>
       </ul>
       
       <ul>
         <li>Social</li>
-        <li><a href="https://reddit.com">Reddit</a></li>
-        <li><a href="https://discord.com/app">Discord</a></li>
-        <li><a href="https://twitter.com">Twitter</a></li>
-        <li><a href="https://facebook.com">Facebook</a></li>
+        <li><a href="https://reddit.com"><img src="https://www.redditstatic.com/icon.png">Reddit</a></li>
+        <li><a href="https://discord.com/app"><img src="https://discord.com/assets/07dca80a102d4149e9736d4b162cff6f.ico">Discord</a></li>
+        <li><a href="https://twitter.com"><img src="https://img.icons8.com/fluent/48/000000/twitter.png">Twitter</a></li>
+        <li><a href="https://facebook.com"><img src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico">Facebook</a></li>
+        <li><a href="https://tumblr.com"><img src="https://tumblr.com/favicon.ico">Tumblr</a></li>
       </ul>
       
       <ul>
         <li>Ricing</li>
-        <li><a href="https://reddit.com/r/unixporn">r/unixporn</a></li>
-        <li><a href="https://reddit.com/r/startpages">r/startpages</a></li>
-        <li><a href="https://reddit.com/r/desktops">r/desktops</a></li>
-        <li><a href="https://reddit.com/r/rainmeter">r/rainmeter</a></li>
+        <li><a href="https://reddit.com/r/unixporn"><img src="https://styles.redditmedia.com/t5_2sx2i/styles/communityIcon_7fixeonxbxd41.png?width=256&s=1ecde8d0f7197fe3aa1b9d6eef5936f7401db607">r/unixporn</a></li>
+        <li><a href="https://reddit.com/r/startpages"><img src="https://www.redditstatic.com/icon.png">r/startpages</a></li>
+        <li><a href="https://reddit.com/r/desktops"><img src="https://www.redditstatic.com/icon.png">r/desktops</a></li>
+        <li><a href="https://reddit.com/r/rainmeter"><img src="https://styles.redditmedia.com/t5_2s0bb/styles/communityIcon_fcl3bfotji421.png?width=256&s=4c633f3c694fe3868bc605bea35492bb9b7d197b">r/rainmeter</a></li>
       </ul>
-
-      <ul>
-        <li>Reddit</li>
-        <li><a href="https://reddit.com/r/dahyun">r/dahyun</a></li>
-        <li><a href="https://reddit.com/r/animefigures">r/animefigures</a></li>
-        <li><a href="https://reddit.com/r/babymetal">r/babymetal</a></li>
-        <li><a href="https://reddit.com/r/mahouka">r/mahouka</a></li>
-        <li><a href="https://reddit.com/r/tenseislime">r/tenseislime</a></li>
-      </ul>    
       
       <ul>
         <li>Development</li>
-        <li><a href="https://stpg.tk">/wg/-/stpg</a></li>
-        <li><a href="https://github.com">Github</a></li>
-        <li><a href="https://codepen.io/">codepen</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">MDN Web Docs</a></li>
-        <li><a href="https://www.python.org/about/gettingstarted/">Python For Beginners</a></li>
-        <li><a href="https://docs.python.org/3/">Python Docs</a></li>
+        <li><a href="https://stpg.tk"><img src="https://stpg.tk/favicon.png">/wg/-/stpg</a></li>
+        <li><a href="https://github.com"><img src="https://github.com/favicon.ico">Github</a></li>
+        <li><a href="https://codepen.io/"><img src="https://codepen.com/favicon.ico">codepen</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web"><img src="https://mozilla.org/favicon.ico">MDN Web Docs</a></li>
+        <li><a href="https://www.python.org/about/gettingstarted/"><img src="https://python.org/favicon.ico">Python For Beginners</a></li>
+        <li><a href="https://docs.python.org/3/"><img src="https://python.org/favicon.ico">Python Docs</a></li>
+      </ul>
+
+      <ul>
+        <li>Shopping</li>
+        <li><a href="https://amazon.com"><img src="https://amazon.com/favicon.ico">Amazon</a></li>
+        <li><a href="https://ebay.com"><img src="https://pages.ebay.com/favicon.ico">eBay</a></li>
+        <li><a href="https://musicplaza.com"><img src="https://cdn.shopify.com/s/files/1/0001/9650/9713/t/10/assets/favicon.png?v=958240746167573437">Music Plaza</a></li>
+      </ul>
+
+      <ul>
+        <li>Blogs</li>
+        <li><a href="https://temmiechang.tumblr.com"><img src="https://64.media.tumblr.com/avatar_375986b05137_128.pnj">Temmie Tumblr</a></li>
+        <li><a href="https://tuyoki.itch.io"><img src="https://img.itch.zone/aW1nLzMxNjcxODMucG5n/508x254%23mb/eHo6%2BX.png">Temmie itch.io</a></li>
+        <li><a href="https://technapacity.com"><img src="https://technapacity.com/favicon.ico">Technapacity</a></li>
+        <li><a href="https://robertquijano.com"><img src="https://robertquijano.com/favicon.ico">Personal Site</a></li>
       </ul>
     </nav>
 
-    <form action="https://duckduckgo.com/" method="GET">
-      <label for="q">></label>
-      <input autofocus
-              id="q" 
-              name="q" 
-              type="search" 
-              placeholder="search with duckduckgo...">
-    </form>
     <script src="scripts/MyClockDisplay.js"></script>
-    <script src="scripts/imageSwitcher.js"></script>
   </body>
 </html>
