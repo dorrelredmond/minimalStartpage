@@ -27,7 +27,7 @@ h1 {
     grid-column: 1 / -1;
     margin: 0;
     text-align: center;
-    font-family: "Luminari", "Bradley Hand", Courier, monospace;
+    font-family: "Luminari", "Bradley Hand", "Courier New", Courier, monospace;
 }
 
 form {
@@ -39,6 +39,7 @@ form {
 
 form input[type="search"] {
     background-color: #3a3939;
+    border-radius: 50px;
     color: teal;
     border: none;
     box-sizing: border-box;
@@ -69,7 +70,6 @@ nav {
     margin: 0 10px;
     min-width: 24em;
     padding: 1em 0;
-    font: 20px "Monaco", monospace, "Courier New", Courier, monospace;
 }
 
 ul {
@@ -88,7 +88,7 @@ li:first-child {
 }
 
 .top img {
-    border-radius: 8px;
+    border-radius: 20px;
     display: block;
     margin: 0 auto;
     width: 30%;
