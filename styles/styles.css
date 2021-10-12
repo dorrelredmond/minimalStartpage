@@ -48,7 +48,7 @@ form {
 form input[type="search"] {
     background-color: #3a3939;
     border-radius: 50px;
-    color: #00FFFF;
+    color: teal;
     border: none;
     box-sizing: border-box;
     font-weight: bold;
